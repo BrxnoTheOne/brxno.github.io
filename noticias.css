@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  h1 {
+    background-color: rgb(13, 14, 13);
+    color: aliceblue;
+  }
+  
+  main{
+    display: flex;
+
+  }
+  
+  img {
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 8px;
+    padding: 1px;
+  
+  }
+  
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
