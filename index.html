@@ -7,31 +7,103 @@
 <body>
 
 <h1>mundo do fisiculturismo</h1>
-<hr>
-<h3>novidades</h3>
+<input type="text" id="txtBusca" placeholder="Buscar..."/>
+&#128269; 
+<h2>novidades</h2>
+
 <main>
-<p>No vídeo, Sam Sulek, um atleta em ascensão no fisiculturismo, conquista seu primeiro campeonato amador em sua estreia nos palcos.<br>
-     Sua performance impressiona, mostrando um físico bem trabalhado e uma apresentação de alto nível, que não deixa a desejar. <br>
-     A vitória de Sam é um marco importante em sua carreira, destacando seu potencial no esporte e deixando claro que ele tem um futuro promissor no fisiculturismo.</p>
-<a href="https://youtu.be/qrlxO3CwviM?si=k-iX-zAlD6Dsakf2">
-<img src="data:image/jpeg;base64,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" alt="noticia_1">
-</a>
+    <article>
+    <a href="https://youtu.be/qrlxO3CwviM?si=k-iX-zAlD6Dsakf2">
+    <img src="https://img.youtube.com/vi/qrlxO3CwviM/mqdefault.jpg"></a>
+<p>rodrigo goes reage a vitoria de sam sulek em sua <br> estréia nos palcos amadores de fisiculturismo</p>
 
 <hr>
-<p>No vídeo, Jorlan reconhece a importância de Renato Cariani no mundo do esporte e fisiculturismo, <br>
-     aproveita a oportunidade para dar um "conselho" sobre uma situação polêmica que envolveu os dois.<br> O comentário surgiu após uma discussão sobre a utilização da cadeira extensora, onde Renato Cariani havia dado sua opinião sobre o exercício. <br>
-     Jorlan, apesar de respeitar Cariani, sugere que ele evite afirmar categoricamente o que é certo ou errado, pois no fisiculturismo existem diversas abordagens e cada pessoa pode ter uma perspectiva diferente sobre os exercícios.</p>
 <a href="https://www.youtube.com/watch?v=LG5i-SrPtag">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKa0w-ejTPtRc-cw_yfh0Jjx7e1ZWiDb1U5g&s">
-    </a>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKa0w-ejTPtRc-cw_yfh0Jjx7e1ZWiDb1U5g&s"></a>
+<p>novamente jorlan vieira entra em discordancia sobre <br> treino, agora com renato Cariani, outro exemplo <br> no esporte.</p>
+    
     <hr>
-    <p>No vídeo, Ramon Dino, está viajando para os Estados Unidos com o objetivo de treinar sob a orientação de seu mentor, Pacholok.<br>
-        A relação entre mentor e pupilo é essencial para o desenvolvimento de Ramon, que busca crescer ainda mais no fisiculturismo,<br>
-         aprendendo com a experiência de Pacholok. O vídeo provavelmente mostra o dia a dia de Ramon durante essa viagem,<br>
-          seus treinos intensivos e a troca de conhecimentos.</p>
     <a href="https://youtu.be/jXY-VpLWiwo?si=vcDgfy2Fxn80bBv7">
-        <img src="https://img.youtube.com/vi/jXY-VpLWiwo/mqdefault.jpg"></a> 
+     
+    <img src="https://img.youtube.com/vi/jXY-VpLWiwo/mqdefault.jpg"></a>
+    <p>No vídeo, Ramon Dino, está viajando para os Estados <br> Unidos com o objetivo de treinar sob a orientação de seu <br>
+        mentor, 
+    pacholok.</p>
+    <br>
+
+    <a href="//youtu.be/lcdXjvlI99U?si=5swFPZofstZ6Kmak">
+    <img src = "//img.youtube.com/vi/lcdXjvlI99U/mqdefault.jpg" ></a>
+    <p> igorfina acaba sendo chamado atenção por uma de <br> suas  imitaçoes ao vivo</p>
+
+
+
+</article>
+<article>
+    <a href="https://youtu.be/NQxiY2KelpQ?si=cQxmKK1kMUX5h5qj">
+    <img src="https://img.youtube.com/vi/NQxiY2KelpQ/mqdefault.jpg"></a>
+
+<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis <br>
+    praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias<br>
+     excepturi sint occaeca</p>
+
+     <a href="https://youtu.be/NQxiY2KelpQ?si=cQxmKK1kMUX5h5qj">
+        <img src="https://img.youtube.com/vi/zpezuHqDxBc/mqdefault.jpg"></a>
+    
+    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis <br>
+        praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias<br>
+         excepturi sint occaeca</p>
+    
+
+         <a href="https://youtu.be/LG5i-SrPtag?si=r6054GYQUDFy0v5q">
+            <img src="https://img.youtube.com/vi/LG5i-SrPtag/mqdefault.jpg"></a>
+        
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis <br>
+            praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias<br>
+             excepturi sint occaeca</p>
+
+             <a href="https://youtu.be/NQxiY2KelpQ?si=cQxmKK1kMUX5h5qj">
+                <img src="https://img.youtube.com/vi/oaFtFmN7km4/mqdefault.jpg"></a>
+        
+             <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis <br>
+                praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias<br>
+                 excepturi sint occaeca</p>
+            
+</article>
+<article>
+    <a href="https://youtu.be/H-t5JaW8j6k?si=_g7OhkPwFm8-8fG4">
+        <img src="https://img.youtube.com/vi/H-t5JaW8j6k/mqdefault.jpg"></a>
+    
+    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis <br>
+        praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias<br>
+         excepturi sint occaeca</p>
+    
+         <a href="https://youtu.be/tzGMqY8xOLk?si=st56YT_hcM35_E8J">
+            <img src="https://img.youtube.com/vi/tzGMqY8xOLk/mqdefault.jpg"></a>
+        
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis <br>
+            praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias<br>
+             excepturi sint occaeca</p>
+        
+    
+             <a href="https://youtu.be/F11c_8rR5gg?si=Jeyw-CDvFm6JNmp_">
+                <img src="https://img.youtube.com/vi/F11c_8rR5gg/mqdefault.jpg"></a>
+            
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis <br>
+                praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias<br>
+                 excepturi sint occaeca</p>
+    
+                 <a href="https://youtu.be/UrJFxVyMExc?si=3ZL1dQt69zDzoE6y">
+                    <img src="https://img.youtube.com/vi/UrJFxVyMExc/mqdefault.jpg"></a>
+            
+                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis <br>
+                    praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias<br>
+                     excepturi sint occaeca</p>
+
+
+
+</article>
     </main>
+
 
 
 </body>
