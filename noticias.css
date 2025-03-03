@@ -6,13 +6,16 @@
 .header {
   color: #ccc;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-
+   position: absolute;
+   right: 10%;
+   top: 5%;
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+
+  background-color: light-dark(white, black);
+  color: light-dark(black, white);
 }
 
 
@@ -24,10 +27,29 @@ flex-wrap: wrap;
 
 .destaque {
   width: 100vh;
-  background-color: rgb(0, 255, 64);
+  background-color: rgb(0, 0, 0);
   padding: 0%;
 
 }
+
+.img-destaque {
+
+position: relative;
+top: -50px;
+left: 10px;
+}
+
+.h3-destaque {
+    color: whitesmoke;
+
+}
+.txt-destaque {
+    padding-left: 50%;
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    color: whitesmoke;
+}
+
 
 hr {
   margin: 1vh;
@@ -46,6 +68,16 @@ header{
   background-color: black;
   padding: 1vh;
 
+}
+
+.logo-maromba {
+  display: flex;
+    width: 15vh;
+    border-radius: 8px;
+    position: absolute;
+    right: 20px; 
+    top: 1vh;
+    position: fixed;
 }
 
 h1 {
@@ -69,6 +101,21 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   display: inline;
   padding: 1vh;
-  
 
+}
+
+footer {
+  display: flex;
+  justify-content: space-between; 
+  align-items: baseline;
+  padding: 40px;
+  margin-top: 100px;
+  background-color: #333;
+  color: white;
+  width: 100% 
+}
+
+footer a {
+  color: white; 
+  text-decoration: none;
 }
