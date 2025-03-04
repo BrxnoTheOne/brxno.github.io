@@ -16,6 +16,7 @@ body {
 
   background-color: light-dark(white, black);
   color: light-dark(black, white);
+
 }
 
 
@@ -34,13 +35,16 @@ flex-wrap: wrap;
 
 .img-destaque {
 
+border-color: aliceblue;
 position: relative;
-top: -50px;
+top: -90px;
 left: 10px;
 }
 
 .h3-destaque {
     color: whitesmoke;
+    position: relative;
+    left: 10px;
 
 }
 .txt-destaque {
@@ -62,6 +66,7 @@ article {
   padding: 20px;
   background: #ccc;
   margin: 5px;
+  border-radius: 3%;
 }
 
 header{
@@ -101,6 +106,8 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   display: inline;
   padding: 1vh;
+  margin-left: 1vh;
+  font-size: 20px;
 
 }
 
@@ -118,4 +125,26 @@ footer {
 footer a {
   color: white; 
   text-decoration: none;
+}
+
+.pagina2 {
+    color: #333;
+
+}
+
+.noticiaifr {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  height: 55vh;     
+  background-color: #333;
+}
+
+.pdestaque {
+  color: black;
+  font-size: 3vh;
+  text-align: center;
+  padding: 15px;
+  margin-left: 16vw;
+
 }
