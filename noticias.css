@@ -12,6 +12,15 @@
    top: 5%;
 }
 
+button {
+background-color: white;
+color: black;
+padding: 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
 body {
 
   background-color: light-dark(white, black);
@@ -54,11 +63,6 @@ left: 10px;
     color: whitesmoke;
 }
 
-
-hr {
-  margin: 1vh;
-
-}
 
 article {
   display: flex;
