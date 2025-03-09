@@ -4,6 +4,7 @@
 
 }
 .header {
+
   color: #ccc;
   display: flex;
   justify-content: space-between;
@@ -154,9 +155,8 @@ footer a {
 }
 
 .img-login {
-  /* width: 30vh; */
+
   position: absolute;
 left: 0px; 
-  /* top: 1vh; */
   position: fixed;
 }
